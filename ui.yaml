@@ -37,8 +37,8 @@ spec:
           ports:
             - containerPort: 80
               name: ui
-          env:
-            - name: API
-              value: "http://api-service/"
-            - name: AUTH_TOKEN
-              value: "valid_token"
+          # env:
+          #   - name: API
+          #     value: "http://api-service/"
+          #   - name: AUTH_TOKEN
+          #     value: "valid_token"
